@@ -2,7 +2,7 @@
 
 Open Source Vulnerability researcher and browser security engineer.
 I build AI-augmented pipelines that autonomously map attack surfaces,
-reason about logic flaws, generate PoCs, and triage findings —
+reason about logic flaws, generate PoCs, and triage findings 
 then validate everything manually.
 
 ## Research
