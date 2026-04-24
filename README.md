@@ -41,3 +41,7 @@ timing, workers, UI events, and more. 10,000+ lines of custom C++.
 ## Skills
 C · C++ · Python · GDB · ASAN/TSAN · Linux (Arch, Ubuntu) · x86-64
 Browser internals · Sandbox escapes · IPC security · Memory corruption
+
+## Contact
+Open to vulnerability research and browser security roles.
+Reach me at: hextheshadow0x@gmail.com
