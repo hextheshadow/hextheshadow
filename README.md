@@ -48,6 +48,7 @@ bypass vulnerabilities that automated scanners miss.
 | **MetaMask Snaps** | SES Compartment Sandbox Escape via thenable hijack in `BaseSnapExecutor.#registerSnapExports()` | `HackerOne` |
 | **Doppler CLI** | Auth Token Exfiltration via `DOPPLER_API_HOST` injection in `PrepareSecrets()` | `In Triage` |
 | **Immutable Passport** | Silent arbitrary transaction execution via attacker-controlled `apiUrl` | `Bugcrowd` |
+| **Linux Kernel** | UAF in vsock Loopback Transport — race in `virtio_transport_consume_skb_sent()` yields KASAN-silent write primitive on `kmalloc-96` | `kernelCTF · 2026` |
 
 ---
 
