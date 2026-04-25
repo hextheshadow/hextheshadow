@@ -1,47 +1,80 @@
-# hextheshadow
+<!-- ───────────────────────────────────────────── -->
+<!--  hextheshadow · GitHub README                 -->
+<!-- ───────────────────────────────────────────── -->
 
-Open Source Vulnerability researcher and browser security engineer.
-I build AI-augmented pipelines that autonomously map attack surfaces,
-reason about logic flaws, generate PoCs, and triage findings 
-then validate everything manually.
+<div align="center">
 
-## Research
+```
+  _               _   _                 _               _  
+ | |__   _____  _| |_| |__   ___  ___| |__   __ _  __| |___ _      __ 
+ | '_ \ / _ \ \/ / __| '_ \ / _ \/ __| '_ \ / _` |/ _` / _ \ \ /\ / / 
+ | | | |  __/>  <| |_| | | |  __/\__ \ | | | (_| | (_| \  __/\ V  V /  
+ |_| |_|\___/_/\_\\__|_| |_|\___||___/_| |_|\__,_|\__,_|\___| \_/\_/   
+```
 
-**Chromium** — Fenced Frame ACER Policy Bypass  
-Missing enforcement in `SetFencedFrameAutomaticBeaconReportEventData()`
-allowing cross-origin iframes to fire automatic beacons across the
-ACER boundary without operator opt-in. Confirmed on stable channel.
+**`vulnerability researcher`** &nbsp;·&nbsp; browser internals &nbsp;·&nbsp; sandbox security &nbsp;·&nbsp; ai-autonomous pipelines
 
-**MetaMask Snaps** — SES Compartment Sandbox Escape  
-Zero-permission escape via thenable hijack in
-`BaseSnapExecutor.#registerSnapExports()`. Snap-controlled `.then()`
-fires as outer-realm microtask, bypassing SES entirely and exposing
-real `globalThis` and Ethereum provider.
+<br/>
 
-**Doppler CLI** — Auth Token Exfiltration via `DOPPLER_API_HOST` Injection  
-`PrepareSecrets()` blocks `PATH`, `PS1`, `HOME` but leaves
-`DOPPLER_API_HOST` injectable, allowing a malicious team member to
-redirect `doppler run` to an attacker-controlled server with the
-victim's real Bearer token.
+[![GitHub](https://img.shields.io/badge/github-hextheshadow-00ff6a?style=flat-square&logo=github&logoColor=00ff6a&labelColor=070a0d&color=182420)](https://github.com/hextheshadow)
+[![HackerOne](https://img.shields.io/badge/hackerone-h3xb1tx-00ff6a?style=flat-square&logo=hackerone&logoColor=00ff6a&labelColor=070a0d&color=182420)](https://hackerone.com/h3xb1tx)
+[![Bugcrowd](https://img.shields.io/badge/bugcrowd-HexShadow-00ff6a?style=flat-square&logo=bugcrowd&logoColor=00ff6a&labelColor=070a0d&color=182420)](https://bugcrowd.com/h/HexShadow)
+[![Email](https://img.shields.io/badge/email-hextheshadow0x-00ff6a?style=flat-square&logo=gmail&logoColor=00ff6a&labelColor=070a0d&color=182420)](mailto:hextheshadow0x@gmail.com)
 
-**Immutable Passport SDK** — Unauthenticated Session Activity Endpoint  
-Allows silent arbitrary transaction execution via attacker-controlled
-`apiUrl` in custom chain configuration.
+</div>
 
-## Projects
+---
 
-**Ladybird Anti-Fingerprinting Engine** — C++ / Browser Internals  
-Platform-coherent hardware identity generation system built into a
-custom Ladybird fork. Generates internally consistent device profiles
-enforced at the C++ component level — Windows profiles get ANGLE/D3D
-GPUs, macOS gets Apple Silicon/Metal, iOS gets Apple SoC with no
-discrete GPU. Covers audio, canvas, WebGL, navigator, geolocation,
-timing, workers, UI events, and more. 10,000+ lines of custom C++.
+## `>_ whoami`
 
-## Skills
-C · C++ · Python · GDB · ASAN/TSAN · Linux (Arch, Ubuntu) · x86-64
-Browser internals · Sandbox escapes · IPC security · Memory corruption
+Independent vulnerability researcher at the intersection of **browser internals**,
+**Linux kernel security**, and **AI-autonomous exploit pipelines**.
 
-## Contact
-Open to vulnerability research and browser security roles.
-Reach me at: hextheshadow0x@gmail.com
+I operate research pipelines that autonomously map attack surfaces, reason about
+logic flaws, generate PoCs, and triage findings — then validate everything manually
+through dynamic instrumentation before responsible disclosure.
+
+My work targets **Chromium**, **MetaMask**, **Doppler**, **Immutable Passport**,
+and other high-impact open-source projects. I specialise in logic flaws and policy
+bypass vulnerabilities that automated scanners miss.
+
+---
+
+## `>_ research`
+
+| target | finding | status |
+|--------|---------|--------|
+| **Chromium** | Fenced Frame ACER Policy Bypass — missing check in `SetFencedFrameAutomaticBeaconReportEventData()` | `P3 · Privacy` |
+| **MetaMask Snaps** | SES Compartment Sandbox Escape via thenable hijack in `BaseSnapExecutor.#registerSnapExports()` | `HackerOne` |
+| **Doppler CLI** | Auth Token Exfiltration via `DOPPLER_API_HOST` injection in `PrepareSecrets()` | `In Triage` |
+| **Immutable Passport** | Silent arbitrary transaction execution via attacker-controlled `apiUrl` | `Bugcrowd` |
+
+---
+
+## `>_ stack`
+
+```
+languages   →  C · C++ · Python
+platforms   →  Linux (Arch, Ubuntu) · x86-64
+tooling     →  GDB · ASAN · TSAN · KASAN · strace · ftrace · perf
+domains     →  browser internals · sandbox escapes · IPC security · memory corruption
+research    →  Chromium · Linux kernel · Hypervisors (KVM, gVisor)
+```
+
+---
+
+## `>_ contact`
+
+Open to **vulnerability research**, **browser security**, and **red team** roles.
+
+<div align="center">
+
+[![portfolio](https://img.shields.io/badge/portfolio-hextheshadow.github.io-00c8ff?style=for-the-badge&labelColor=070a0d&color=0c1117)](https://hextheshadow.github.io)
+&nbsp;
+[![email](https://img.shields.io/badge/email-hextheshadow0x%40gmail.com-00c8ff?style=for-the-badge&labelColor=070a0d&color=0c1117)](mailto:hextheshadow0x@gmail.com)
+
+</div>
+
+<br/>
+
+<!-- hextheshadow · 2026 · finding what others miss -->
