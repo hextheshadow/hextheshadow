@@ -17,8 +17,6 @@
 <br/>
 
 [![GitHub](https://img.shields.io/badge/github-hextheshadow-00ff6a?style=flat-square&logo=github&logoColor=00ff6a&labelColor=070a0d&color=182420)](https://github.com/hextheshadow)
-[![HackerOne](https://img.shields.io/badge/hackerone-h3xb1tx-00ff6a?style=flat-square&logo=hackerone&logoColor=00ff6a&labelColor=070a0d&color=182420)](https://hackerone.com/h3xb1tx)
-[![Bugcrowd](https://img.shields.io/badge/bugcrowd-HexShadow-00ff6a?style=flat-square&logo=bugcrowd&logoColor=00ff6a&labelColor=070a0d&color=182420)](https://bugcrowd.com/h/HexShadow)
 [![Email](https://img.shields.io/badge/email-hextheshadow0x-00ff6a?style=flat-square&logo=gmail&logoColor=00ff6a&labelColor=070a0d&color=182420)](mailto:hextheshadow0x@gmail.com)
 
 </div>
@@ -44,11 +42,11 @@ bypass vulnerabilities that automated scanners miss.
 
 | target | finding | status |
 |--------|---------|--------|
-| **Chromium** | Fenced Frame ACER Policy Bypass — missing check in `SetFencedFrameAutomaticBeaconReportEventData()` | `P3 · Privacy` |
-| **MetaMask Snaps** | SES Compartment Sandbox Escape via thenable hijack in `BaseSnapExecutor.#registerSnapExports()` | `HackerOne` |
-| **Doppler CLI** | Auth Token Exfiltration via `DOPPLER_API_HOST` injection in `PrepareSecrets()` | `In Triage` |
-| **Immutable Passport** | Silent arbitrary transaction execution via attacker-controlled `apiUrl` | `Bugcrowd` |
-| **Linux Kernel** | UAF in vsock Loopback Transport — race in `virtio_transport_consume_skb_sent()` yields KASAN-silent write primitive on `kmalloc-96` | `kernelCTF · 2026` |
+| **Chromium** | Fenced Frame ACER Policy Bypass — missing check in `SetFencedFrameAutomaticBeaconReportEventData()` | ![](https://img.shields.io/badge/P3%20·%20Privacy-00ff6a?style=flat-square&labelColor=0b1510) |
+| **MetaMask Snaps** | SES Compartment Sandbox Escape via thenable hijack in `BaseSnapExecutor.#registerSnapExports()` | ![](https://img.shields.io/badge/HackerOne-00ff6a?style=flat-square&labelColor=0b1510) |
+| **Doppler CLI** | Auth Token Exfiltration via `DOPPLER_API_HOST` injection in `PrepareSecrets()` | ![](https://img.shields.io/badge/In%20Triage-00c8ff?style=flat-square&labelColor=0b1510) |
+| **Immutable Passport** | Silent arbitrary transaction execution via attacker-controlled `apiUrl` | ![](https://img.shields.io/badge/Bugcrowd-00c8ff?style=flat-square&labelColor=0b1510) |
+| **Linux Kernel** | UAF in vsock Loopback Transport — race in `virtio_transport_consume_skb_sent()` yields KASAN-silent write primitive on `kmalloc-96` | ![](https://img.shields.io/badge/kernelCTF%20·%202026-f59e0b?style=flat-square&labelColor=0b1510) |
 
 ---
 
