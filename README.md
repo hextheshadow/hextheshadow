@@ -1,7 +1,6 @@
 <!-- ───────────────────────────────────────────── -->
 <!--  hextheshadow · GitHub README                 -->
 <!-- ───────────────────────────────────────────── -->
-
 <div align="center">
 
 ```
@@ -12,10 +11,8 @@
  |_| |_|\___/_/\_\\__|_| |_|\___||___/_| |_|\__,_|\__,_|\___| \_/\_/   
 ```
 
-**`vulnerability researcher`** &nbsp;·&nbsp; browser internals &nbsp;·&nbsp; sandbox security &nbsp;·&nbsp; ai-autonomous pipelines
-
+**`vulnerability researcher`** &nbsp;·&nbsp; browser internals &nbsp;·&nbsp; sandbox security
 <br/>
-
 [![GitHub](https://img.shields.io/badge/github-hextheshadow-00ff6a?style=flat-square&logo=github&logoColor=00ff6a&labelColor=070a0d&color=182420)](https://github.com/hextheshadow)
 [![Email](https://img.shields.io/badge/email-hextheshadow0x-00ff6a?style=flat-square&logo=gmail&logoColor=00ff6a&labelColor=070a0d&color=182420)](mailto:hextheshadow0x@gmail.com)
 
@@ -25,12 +22,12 @@
 
 ## `>_ whoami`
 
-Independent vulnerability researcher at the intersection of **browser internals**,
-**Linux kernel security**, and **AI-autonomous exploit pipelines**.
+Independent vulnerability researcher focused on **browser internals**,
+**Linux kernel security**, and **sandbox escapes**.
 
-I operate research pipelines that autonomously map attack surfaces, reason about
-logic flaws, generate PoCs, and triage findings — then validate everything manually
-through dynamic instrumentation before responsible disclosure.
+I map attack surfaces, reason about logic flaws, generate PoCs, and triage
+findings — then validate everything manually through dynamic instrumentation
+before responsible disclosure.
 
 My work targets **Chromium**, **MetaMask**, **Doppler**, **Immutable Passport**,
 and other high-impact open-source projects. I specialise in logic flaws and policy
@@ -73,7 +70,6 @@ Open to **vulnerability research**, **browser security**, and **red team** roles
 [![email](https://img.shields.io/badge/email-hextheshadow0x%40gmail.com-00c8ff?style=for-the-badge&labelColor=070a0d&color=0c1117)](mailto:hextheshadow0x@gmail.com)
 
 </div>
-
 <br/>
 
 <!-- hextheshadow · 2026 · finding what others miss -->
